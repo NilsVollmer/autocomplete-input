@@ -1,4 +1,4 @@
-Simple fuzzy-matched autocomplete input field, based on react-create-app
+Simple fuzzy-matched autocomplete input field, based on create-react-app
 
 ## Available Scripts
 
@@ -17,4 +17,4 @@ Launches the test runner in the interactive watch mode.<br />
 ### `npm run coverage`
 
 Runs all tests and outputs coverage report.
-Basic JS files of react-create-app are ignore for coverage.
+Basic JS files of create-react-app are ignored for coverage.
