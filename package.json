@@ -1,19 +1,26 @@
 {
   "name": "autocomplete-input",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": "Nils Vollmer",
+  "description": "Simple fuzzy-matched autosuggest input",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "fuzzysort": "^1.1.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.3.1",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "react-scripts test --env=jsdom --watchAll=false --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js --collectCoverageFrom=!src/serviceWorker.js  --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

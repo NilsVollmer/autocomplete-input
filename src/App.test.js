@@ -2,8 +2,12 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
+beforeEach(() => {
+  jest.spyOn(console, 'warn').mockImplementation(() => {});
+});
+
+test('render a role="combobox" element', () => {
+  const { getByRole } = render(<App />);
+  const linkElement = getByRole(/combobox/i);
   expect(linkElement).toBeInTheDocument();
 });
