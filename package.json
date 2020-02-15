@@ -1,6 +1,6 @@
 {
   "name": "autocomplete-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nils Vollmer",
   "description": "Simple fuzzy-matched autosuggest input",
   "private": false,
@@ -18,10 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "coverage": "react-scripts test --env=jsdom --watchAll=false --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js --collectCoverageFrom=!src/serviceWorker.js  --coverage",
-    "eject": "react-scripts eject"
+    "coverage": "react-scripts test --env=jsdom --watchAll=false --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js --collectCoverageFrom=!src/serviceWorker.js  --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"

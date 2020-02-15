@@ -14,7 +14,7 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 
-### `npm run test coverage`
+### `npm run coverage`
 
 Runs all tests and outputs coverage report.
 Basic JS files of react-create-app are ignore for coverage.
