@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
-import { fuzzyFindAndSort, fuzzyHighlight } from '../AsyncMock';
+import { fuzzyFindAndSort, fuzzyHighlight } from '../FuzzyMatch';
 import styled from 'styled-components';
 import './style.css';
 
